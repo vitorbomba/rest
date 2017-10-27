@@ -19,7 +19,7 @@ header h3{
 }
 
 header nav{
-    max-width: 340px;
+    max-width: 550px;
     margin: 0 auto;
     box-shadow: 0 0 0 5px #202020;
 }
@@ -123,4 +123,88 @@ section div h1::after, section div h1::before{
 }
 
 
+/************************ HEADER ADM ****************************/
+.header_adm{
+    background:#22211F;
+    height: 300px;
+    background-size: cover;
+    text-align: center;
+}
+
+.header_adm img{
+    text-align: center;
+    padding-top: 90px;
+} 
+
+/************************ ADM ****************************/
+
+.login h2{
+    color:#D14B4B;
+    font-size: 38px;
+	font-weight: bold;
+	text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.login h2::after{
+    content: "";
+    display: block;
+    width: 31%;
+    height: 2px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+    text-align: center;
+}
+
+.form-horizontal{
+    height: 360px;
+}
+.form-group label{
+    color: #fff;
+}
+
+.form-group div button a{
+    color: #fff;
+}
+
+/* .form-group button{
+    margin: 0px 0px 50px 100px;
+}
+
+.sair{
+    margin: 0px 0px 0px 0px;
+} */
+
+/************************ AREA DO ADM ****************************/
+.areaadm h2{
+    color:#D14B4B;
+    font-size: 38px;
+	font-weight: bold;
+	text-decoration: none;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.areaadm h2::after{
+    content: "";
+    display: block;
+    width: 36%;
+    height: 2px;
+    background: #fff;
+    margin: 14px auto 10px auto;
+    text-align: center;
+}
+
+.botao{
+    margin-left: 39%;
+    height: 360px;
+}
+
+.botao button{
+    margin-right: 5px;
+}
+.botao button a{
+    color: #fff;
+}
 

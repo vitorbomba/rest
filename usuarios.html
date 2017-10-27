@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Rest</title>
+
+        <link href='https://fonts.googleapis.com/css?family=Alegreya+SC' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/animate.css">
+        <script src="js/animacao.js"></script>
+	</head>
+
+	<body>
+    <header class="row header_adm">
+		  <div>      
+        <img src="img/rest.png" alt="Logo" class="img_logo">
+      </div>
+    </header>
+    <section class="row background_menu">
+        <div class="container menu">
+             <!-- <h1>Administração</h1> -->
+             <div class="col-md-12 login">
+                 <h2>Usuários</h2>
+            </div>
+            <div class="botao">                 
+                <button id="btnSair" name="btnSair" class="btn btn-danger"><a href="arealogada.html">Sair</a></button>
+            </div>
+            <div>
+                <form class="form-horizontal">
+                    <fieldset>
+                    
+                    <!-- Form Name -->
+                    <legend>Usuários</legend>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="txtNome">Nome Completo</label>  
+                      <div class="col-md-5">
+                      <input id="txtNome" name="txtNome" type="text" placeholder="Digite seu nome completo" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="txtEmailUsuario">E-mail</label>  
+                      <div class="col-md-5">
+                      <input id="txtEmailUsuario" name="txtEmailUsuario" type="text" placeholder="Digite seu e-mail" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Password input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="txtSenhaUsuario">Senha</label>
+                      <div class="col-md-4">
+                        <input id="txtSenhaUsuario" name="txtSenhaUsuario" type="password" placeholder="Digite a senha desejada" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Multiple Radios (inline) -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="radios">Tipo de usuario</label>
+                      <div class="col-md-4"> 
+                        <label class="radio-inline" for="radios-0">
+                          <input type="radio" name="radios" id="radios-0" value="1" checked="checked">
+                          Administrador
+                        </label> 
+                        <label class="radio-inline" for="radios-1">
+                          <input type="radio" name="radios" id="radios-1" value="2">
+                          Usuario
+                        </label>
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="txtTelefoneUsuario">Telefone</label>  
+                      <div class="col-md-4">
+                      <input id="txtTelefoneUsuario" name="txtTelefoneUsuario" type="text" placeholder="Digite seu telefone" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Button (Double) -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="btnCadastarUsuario"></label>
+                      <div class="col-md-8">
+                        <button id="btnCadastarUsuario" name="btnCadastarUsuario" class="btn btn-success">Cadastrar</button>
+                        <button id="btnAlterarUsuario" name="btnAlterarUsuario" class="btn btn-primary">Alterar</button>
+                      </div>
+                    </div>
+                    
+                    </fieldset>
+                    </form>
+                </div>
